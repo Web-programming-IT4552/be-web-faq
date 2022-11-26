@@ -18,7 +18,7 @@ docker-compose up --build -d
 docker-compose exec app composer install --no-scripts
 ```
 
-## Optimize Artisan
+## Config
 
 ```
 docker-compose exec app php artisan key:generate
@@ -33,3 +33,11 @@ docker-compose exec app php artisan optimize
 ```
 docker-compose exec app php artisan migrate
 ```
+
+## Run seeds
+
+```
+docker-compose exec app php artisan db:seed
+```
+
+or you can run all commands in file `init.sh`
