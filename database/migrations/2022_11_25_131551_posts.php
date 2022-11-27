@@ -17,7 +17,7 @@ return new class extends Migration
             $table->increments('id');
             $table->integer('user_id');
             $table->string('title');
-            $table->string('content');
+            $table->text('content');
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
             $table->string('type');

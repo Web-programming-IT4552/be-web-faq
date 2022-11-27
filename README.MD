@@ -40,4 +40,7 @@ docker-compose exec app php artisan migrate
 docker-compose exec app php artisan db:seed
 ```
 
-or you can run all commands in file `init.sh`
+or you can run all commands in file `init.sh`.
+
+## Contact me for more information
+[Tùng Nguyễn](https://www.facebook.com/anm19042)
